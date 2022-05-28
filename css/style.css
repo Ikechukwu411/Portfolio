@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/we.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    
+}
+.logo{
+    font-size: 33px;
+    color: white;
+    padding: 0 100px;
+    font-weight: bold;
+    line-height: 80px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+span{
+    color: #f9004d;
+}
+ul li{
+    display: inline-block;
+    margin: 0 5px;
+    list-style: none;
+    padding: 20px 10px;
+}
+ul li a{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #f9004d;
+    transition: .5s;
+    border-radius: 3px;
+}
+.btn{
+    margin-right: 50px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    background-color: #f9004d;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    transition: transform .4s;
+    font-weight: bold;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+.content h1{
+  color: white;
+  margin: 20px 0 20px;
+  font-size: 65px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form{
+    width: 350px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    border-radius: 30px;
+    outline: none;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+img{
+    height: auto;
+    width: 460px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 45px;
+    line-height: 80px;
+}
+h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.about-text p{
+    color: #fcfc;
+    font-size: 15px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+.service{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #101010;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #f9004d;
+}
+.para p{
+    color: #fcfc;
+    margin-bottom: 27px;
+    line-height: 27px;
+}
+h6{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+.contact-me{
+    background-color: #191919;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+}
+.contactbtn{
+    display: flex;
+    position: absolute;
+    top: 340%;
+}
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+}
+footer p{
+    color: #fcfc;
+    padding-top: 20px;
+    text-align: center;
+}
